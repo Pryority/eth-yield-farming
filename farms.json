@@ -1,0 +1,637 @@
+[
+  {
+    "name": "True Dollar Finance",
+    "symbol": "TSD",
+    "url": "truedollar.finance",
+    "address": "0x4846239fdf4d4c1aeb26729fa064b0205aca90e1",
+    "createdAt": "Jan 01, 2021"
+  },
+  {
+    "name": "CONNECTx",
+    "symbol": "CTX",
+    "url": "connectx.network",
+    "address": "0x58fbce7f305cc2e3daa9731b575d4c2ec3b5b8bd",
+    "createdAt": "Jan 01, 2021"
+  },
+  {
+    "name": "Falcon Project",
+    "symbol": "FNT",
+    "url": "falconofficial.com",
+    "address": "0xdc5864ede28bd4405aa04d93e05a0531797d9d59",
+    "createdAt": "Jan 01, 2021"
+  },
+  {
+    "name": "Scarcity DeFi",
+    "symbol": "SCARCE",
+    "url": "scarcitydefi.org",
+    "address": "0x11099094d606f0704Ec77aD99993Eeca681221D0",
+    "createdAt": "Dec 31, 2020"
+  },
+  {
+    "name": "Carve Finance",
+    "symbol": "CARVE",
+    "url": "carve.finance",
+    "address": "0x34d0df862d12cb05e97ebf5b38725284966d0ad6",
+    "createdAt": "Dec 31, 2020"
+  },
+  {
+    "name": "WISE",
+    "symbol": "WISE",
+    "url": "wisetoken.net",
+    "address": "0x66a0f676479cee1d7373f3dc2e2952778bff5bd6",
+    "createdAt": "Dec 31, 2020"
+  },
+  {
+    "name": "Flaming Farm",
+    "symbol": "FFARM",
+    "url": "flamingfarm.org",
+    "address": "0xb00381dcaf378664b32596a612c2c83de4a81dc0",
+    "createdAt": "Dec 30, 2020"
+  },
+  {
+    "name": "MITH Cash",
+    "symbol": "MIC",
+    "url": "mith.cash",
+    "address": "0x368b3a58b5f49392e5c9e4c998cb0bb966752e51",
+    "createdAt": "Dec 30, 2020"
+  },
+  {
+    "name": "Indexed Finance",
+    "symbol": "NDX",
+    "url": "indexed.finance",
+    "address": "0x86772b1409b61c639eaac9ba0acfbb6e238e5f83",
+    "createdAt": "Dec 28, 2020"
+  },
+  {
+    "name": "1inch",
+    "symbol": "1INCH",
+    "url": "1inch.exchange/#/dao/farming",
+    "address": "0x111111111117dc0aa78b770fa6a738034120c302",
+    "createdAt": "Dec 28, 2020"
+  },
+  {
+    "name": "TheBORG",
+    "symbol": "BORG",
+    "url": "theborg.eth.link",
+    "address": "0xb3419f1ef282253296e92df6f85e113360a391f2",
+    "createdAt": "Dec 27, 2020"
+  },
+  {
+    "name": "Gains Farm",
+    "symbol": "GFARM",
+    "url": "gains.farm",
+    "address": "0x544288176bb6d7d198302a2d18fad38442e69b25",
+    "createdAt": "Dec 27, 2020"
+  },
+  {
+    "name": "One Cash",
+    "symbol": "ONC",
+    "url": "onecash.finance",
+    "address": "0xd90e69f67203ebe02c917b5128629e77b4cd92dc",
+    "createdAt": "Dec 27, 2020"
+  },
+  {
+    "name": "GovernorDAO",
+    "symbol": "GDAO",
+    "url": "governordao.org",
+    "address": "0x515d7e9d75e2b76db60f8a051cd890eba23286bc",
+    "createdAt": "Dec 22, 2020"
+  },
+  {
+    "name": "Decentralized Privacy",
+    "symbol": "DPC",
+    "url": "dxmr.io",
+    "address": "0x8e8fe3add2ab97dee73636d87d7cff113fd09746",
+    "createdAt": "Dec 22, 2020"
+  },
+
+  {
+    "name": "OnX Finance",
+    "symbol": "ONX",
+    "url": "onx.finance",
+    "address": "0xe0ad1806fd3e7edf6ff52fdb822432e847411033",
+    "createdAt": "Dec 22, 2020"
+  },
+  {
+    "name": "N3RD Finance",
+    "symbol": "N3RDz",
+    "url": "n3rd.finance",
+    "address": "0x32c868f6318d6334b2250f323d914bc2239e4eee",
+    "createdAt": "Dec 22, 2020"
+  },
+  {
+    "name": "Altitude Finance",
+    "symbol": "PWDR",
+    "url": "altitude.finance",
+    "address": "0x35557bda8c1eb81e2924af07ccccb9608e2e4a9b",
+    "createdAt": "Dec 22, 2020"
+  },
+  {
+    "name": "Vesper Finance",
+    "symbol": "vETH",
+    "url": "vesper.finance",
+    "address": "0x103cc17c2b1586e5cd9bad308690bcd0bbe54d5e",
+    "createdAt": "Dec 22, 2020"
+  },
+  {
+    "name": "UCash",
+    "symbol": "UBC",
+    "url": "ucash.eth.link",
+    "address": "0x1cde42a34d549fbc1e75f63e56867f14a8e1175b",
+    "createdAt": "Dec 21, 2020"
+  },
+  {
+    "name": "Zero Collateral DAI",
+    "symbol": "ZAI",
+    "url": "zai.finance",
+    "address": "0x9d1233cc46795e94029fda81aaadc1455d510f15",
+    "createdAt": "Dec 21, 2020"
+  },
+  {
+    "name": "Cocoricos",
+    "symbol": "EGG",
+    "url": "cocoricos.io",
+    "address": "0xd0983dd6a0334c71d0478255d1f794508026b888",
+    "createdAt": "Dec 20, 2020"
+  },
+  {
+    "name": "Frax Finance",
+    "symbol": "FRAX",
+    "url": "frax.finance",
+    "address": "0x853d955acef822db058eb8505911ed77f175b99e",
+    "createdAt": "Dec 20, 2020"
+  },
+  {
+    "name": "Yugi Finance",
+    "symbol": "YGT",
+    "url": "yugi.finance",
+    "address": "0x693eea0cf4671748211fe97d0de6a33076a89169",
+    "createdAt": "Dec 20, 2020"
+  },
+  {
+    "name": "Killing Meme Protocol",
+    "symbol": "KILL",
+    "url": "killthedefi.fun",
+    "address": "0xb85c54b5fcb21d90ebf4737e2149d4aacc9f45bb",
+    "createdAt": "Dec 19, 2020"
+  },
+  {
+    "name": "LIDO",
+    "symbol": "stETH",
+    "url": "stake.lido.fi",
+    "address": "0xae7ab96520de3a18e5e111b5eaab095312d7fe84",
+    "createdAt": "Dec 19, 2020"
+  },
+  {
+    "name": "Xbase Finance",
+    "symbol": "XBASE",
+    "url": "xbase.finance",
+    "address": "0xca6892d6bd9ab4f640b9e91ffbded23ec97fb6f6",
+    "createdAt": "Dec 18, 2020"
+  },
+
+  {
+    "name": "YFSX",
+    "symbol": "YFSX",
+    "url": "yfsx.money",
+    "address": "0x2de4352de52bed1eebd4682c4b0ac0529b6a65af",
+    "createdAt": "Dec 17, 2020"
+  },
+  {
+    "name": "DeFireX",
+    "symbol": "DFX",
+    "url": "defirex.org",
+    "address": "0x96267a9781522498fd4c280b791bd135780693a1",
+    "createdAt": "Dec 17, 2020"
+  },
+  {
+    "name": "Basis Dollar",
+    "symbol": "BSD",
+    "url": "basisdollar.fi",
+    "address": "0x003e0af2916e598fa5ea5cb2da4edfda9aed9fde",
+    "createdAt": "Dec 16, 2020"
+  },
+  {
+    "name": "YVS Finance",
+    "symbol": "YVS",
+    "url": "yvs.finance",
+    "address": "0xec681f28f4561c2a9534799aa38e0d36a83cf478",
+    "createdAt": "Dec 16, 2020"
+  },
+  {
+    "name": "AlphaSwap",
+    "symbol": "AST",
+    "url": "alphaswap.app",
+    "address": "0x9ba5774715db9e3747c10c3efde3c43a95b99479",
+    "createdAt": "Dec 16, 2020"
+  },
+  {
+    "name": "DeFi Yield Protocol",
+    "symbol": "DYP",
+    "url": "dyp.finance",
+    "address": "0x961C8c0B1aaD0c0b10a51FeF6a867E3091BCef17",
+    "createdAt": "Dec 15, 2020"
+  },
+  {
+    "name": "SpiderDAO",
+    "symbol": "SPDR",
+    "url": "spiderdao.io",
+    "address": "0xbcd4b7de6fde81025f74426d43165a5b0d790fdd",
+    "createdAt": "Dec 15, 2020"
+  },
+  {
+    "name": "xETH.Tech",
+    "symbol": "xETH-G",
+    "url": "xeth.tech",
+    "address": "0x3863ea7577fc91bfbaeae6a6a3e403524afcf787",
+    "createdAt": "Dec 15, 2020"
+  },
+  {
+    "name": "SpiderDAO",
+    "symbol": "SPDR",
+    "url": "spiderdao.io",
+    "address": "0xbcd4b7de6fde81025f74426d43165a5b0d790fdd",
+    "createdAt": "Dec 15, 2020"
+  },
+  {
+    "name": "Deflect Protocol",
+    "symbol": "DEFLCT",
+    "url": "deflectprotocol.io",
+    "address": "0x3aa5f749d4a6bcf67dac1091ceb69d1f5d86fa53",
+    "createdAt": "Dec 14, 2020"
+  },
+  {
+    "name": "Blaze DeFi",
+    "symbol": "BNFI",
+    "url": "blazenetwork.online/blazegoingdefi",
+    "address": "0x68e0a48d3bff6633a31d1d100b70f93c3859218b",
+    "createdAt": "Dec 14, 2020"
+  },
+  {
+    "name": "Predictz",
+    "symbol": "PDRZ",
+    "url": "predictz.io",
+    "address": "0x4e085036a1b732cbe4ffb1c12ddfdd87e7c3664d",
+    "createdAt": "Dec 13, 2020"
+  },
+  {
+    "name": "PiSwap",
+    "symbol": "PIS",
+    "url": "piswap.io",
+    "address": "0xce1298ef635326d9f197963e49e1e67422761897",
+    "createdAt": "Dec 11, 2020"
+  },
+  {
+    "name": "SOKUDO FINANCE",
+    "symbol": "SKD",
+    "url": "sokudo.finance",
+    "address": "0x3bd5a8376a0f5147d18986348de63c76996ca943",
+    "createdAt": "Dec 11, 2020"
+  },
+  {
+    "name": "Yearn Loans Finance",
+    "symbol": "YLFI",
+    "url": "yloans.finance",
+    "address": "0x186af393bf9ceef31ce7eae2b468c46231163cc7",
+    "createdAt": "Dec 10, 2020"
+  },
+  {
+    "name": "WallStreet Finance",
+    "symbol": "WSF",
+    "url": "thewallstreet.finance",
+    "address": "0x4819a96eB4b22454d628Cd683aE052C2c9076808",
+    "createdAt": "Dec 10, 2020"
+  },
+  {
+    "name": "Bondly Finance",
+    "symbol": "BONDLY",
+    "url": "bondly.finance",
+    "address": "0xd2dda223b2617cb616c1580db421e4cfae6a8a85",
+    "createdAt": "Dec 09, 2020"
+  },
+  {
+    "name": "WAV3",
+    "symbol": "WAV3",
+    "url": "wav3.org",
+    "address": "0x14c38e90a593b0bd5b7e9896a8ef4ae0a119d6ae",
+    "createdAt": "Dec 09, 2020"
+  },
+  {
+    "name": "Bao Finance",
+    "symbol": "BAO",
+    "url": "bao.finance",
+    "address": "0x374cb8c27130e2c9e04f44303f3c8351b9de61c1",
+    "createdAt": "Dec 08, 2020"
+  },
+  {
+    "name": "Dragonfly Protocol",
+    "symbol": "DFLY",
+    "url": "dragonflyprotocol.com",
+    "address": "0x70a6d0d1561ba98711e935a76b1c167c612978a2",
+    "createdAt": "Dec 08, 2020"
+  },
+  {
+    "name": "Ruletka",
+    "symbol": "AMMO",
+    "url": "ruletka.fun",
+    "address": "0x41d4e9880d6ae03f6e152a52afc3ecf82063a08b",
+    "createdAt": "Dec 08, 2020"
+  },
+  {
+    "name": "Hurricane Finance",
+    "symbol": "CANE",
+    "url": "hurricane.finance",
+    "address": "0x15fa0cdd112922cd6fb499aa9c7dfe047bc6c178",
+    "createdAt": "Dec 07, 2020"
+  },
+  {
+    "name": "Kronos Chain",
+    "symbol": "KNS",
+    "url": "kronoschain.com",
+    "address": "0x59723bd6eb6eb643d0ea182b7ff4717594252419",
+    "createdAt": "Dec 07, 2020"
+  },
+  {
+    "name": "Arvo Finance",
+    "symbol": "ARVO",
+    "url": "arvo.finance",
+    "address": "0x629383e682fb83cac57e07bd2a5329ac6e4b48b1",
+    "createdAt": "Dec 06, 2020"
+  },
+  {
+    "name": "WhaleStreet",
+    "symbol": "$HRIMP",
+    "url": "whalestreet.xyz",
+    "address": "0x9077f9e1efe0ea72867ac89046b2a6264cbcaef5",
+    "createdAt": "Dec 06, 2020"
+  },
+  {
+    "name": "Yearn Finance Connect",
+    "symbol": "YFIC",
+    "url": "yfic.money",
+    "address": "0x14be9bde94102e13971e8f98acecac823cb7fd30",
+    "createdAt": "Dec 05, 2020"
+  },
+  {
+    "name": "YucanSwap",
+    "symbol": "YYU",
+    "url": "yucan.finance",
+    "address": "0x5e7bed6a5c8ef7ab019aaff2a2ecec5f6b40c6b1",
+    "createdAt": "Dec 04, 2020"
+  },
+  {
+    "name": "Badger DAO",
+    "symbol": "BADGER",
+    "url": "badger.finance",
+    "address": "0x3472a5a71965499acd81997a54bba8d852c6e53d",
+    "createdAt": "Dec 03, 2020"
+  },
+  {
+    "name": "Vadia Finance",
+    "symbol": "VAD",
+    "url": "vadia.world",
+    "address": "0xff0a3c3394765700611bc4cac016821aeca7d1a1",
+    "createdAt": "Dec 03, 2020"
+  },
+
+  {
+    "name": "Tornado Finance",
+    "symbol": "TCORE",
+    "url": "tornado.finance",
+    "address": "0x7a3d5d49d64e57dbd6fbb21df7202bd3ee7a2253",
+    "createdAt": "Dec 02, 2020"
+  },
+  {
+    "name": "Yearn Family Finance",
+    "symbol": "YFF",
+    "url": "yearnfamily.finance",
+    "address": "0xa2688932bAd3C10FF3354e65790FE1081E5f2bF2",
+    "createdAt": "Dec 01, 2020"
+  },
+
+  {
+    "name": "Decentral Games",
+    "symbol": "$DG",
+    "url": "decentral.games",
+    "address": "0xee06a81a695750e71a662b51066f2c74cf4478a0",
+    "createdAt": "Dec 01, 2020"
+  },
+  {
+    "name": "CoinSwop",
+    "symbol": "CSWOP",
+    "url": "coinswop.org",
+    "address": "0x191bafe4e3888ec289753c7d592634e3abe1ee14",
+    "createdAt": "Dec 01, 2020"
+  },
+  {
+    "name": "Cörlibri",
+    "symbol": "CORLIBRI",
+    "url": "corlibri.org",
+    "address": "0xa83ff602675beca077093049ddd3b7aa5e42da2a",
+    "createdAt": "Dec 01, 2020"
+  },
+  {
+    "name": "YFRX.Finance",
+    "symbol": "YFRX",
+    "url": "yfrx.finance",
+    "address": "0x1280763b1beb3212f702887b2f3afc9a8e8894ff",
+    "createdAt": "Nov 30, 2020"
+  },
+  {
+    "name": "Basis Cash",
+    "symbol": "BAC",
+    "url": "basis.cash",
+    "address": "0x3449FC1Cd036255BA1EB19d65fF4BA2b8903A69a",
+    "createdAt": "Nov 30, 2020"
+  },
+  {
+    "name": "Eliteswap",
+    "symbol": "ELT",
+    "url": "eliteswap.io",
+    "address": "0x380291a9a8593b39f123cf39cc1cc47463330b1f",
+    "createdAt": "Nov 30, 2020"
+  },
+  {
+    "name": "Dvd.Finance",
+    "symbol": "DVD",
+    "url": "dvd.finance",
+    "address": "0xedd4833850c92c900aeba0f49b7c22e802e70042",
+    "createdAt": "Nov 30, 2020"
+  },
+  {
+    "name": "Deficliq",
+    "symbol": "CLIQ",
+    "url": "deficliq.com",
+    "address": "0x0Def8d8addE14c9eF7c2a986dF3eA4Bd65826767",
+    "createdAt": "Nov 29, 2020"
+  },
+  {
+    "name": "Pump Farm",
+    "symbol": "PPF",
+    "url": "pump.farm",
+    "address": "0x6b4b3b0b0130c9b4dda7c6fb4602beefbbf10672",
+    "createdAt": "Nov 28, 2020"
+  },
+
+  {
+    "name": "Glitchr Finance",
+    "symbol": "RETRY",
+    "url": "glitchr.finance",
+    "address": "0x0bec63182ab7e5cd0c0ba4b6d7f5a1d20e815e23",
+    "createdAt": "Nov 28, 2020"
+  },
+  {
+    "name": "Dophins.wtf",
+    "symbol": "EEEE",
+    "url": "dolphins.wtf",
+    "address": "0x757b2350Cd60D5E46E1Fc3314f980f20d85cfB9f",
+    "createdAt": "Nov 27, 2020"
+  },
+  {
+    "name": "Stargaze Protocol",
+    "symbol": "STGZ",
+    "url": "stargazeprotocol.com",
+    "address": "0xa9a8377287ea9c6b8b4249dd502e75d34148fc5b",
+    "createdAt": "Nov 27, 2020"
+  },
+  {
+    "name": "YUI Finance",
+    "symbol": "YUI",
+    "url": "yui.finance",
+    "address": "0x4c10bd19688b906665fbd53415f279f34b44ece7",
+    "createdAt": "Nov 26, 2020"
+  },
+  {
+    "name": "Emporium Finance",
+    "symbol": "CEFI",
+    "url": "emporium.finance",
+    "address": "0xd6d6822b461eaefe7404413670ec26eed8986b48",
+    "createdAt": "Nov 26, 2020"
+  },
+  {
+    "name": "OpenDAO",
+    "symbol": "OPEN",
+    "url": "opendao.io",
+    "address": "0x69e8b9528CABDA89fe846C67675B5D73d463a916",
+    "createdAt": "Nov 26, 2020"
+  },
+  {
+    "name": "IDLSwap",
+    "symbol": "IDL",
+    "url": "idlswap.io",
+    "address": "0x6febd6be8fa45be6a5eeb61a17c82d33b9addd41",
+    "createdAt": "Nov 25, 2020"
+  },
+  {
+    "name": "Emojis Farm",
+    "symbol": "EMOJI",
+    "url": "emojis.farm",
+    "address": "0xcbd380c2d84deafed09f79863705353505764f26",
+    "createdAt": "Nov 24, 2020"
+  },
+  {
+    "name": "HypePlasma",
+    "symbol": "HPLSM",
+    "url": "hypefarms.finance",
+    "address": "0xf6c3393Ad30224D938C16cbDac27792cbcbFCF62",
+    "createdAt": "Nov 24, 2020"
+  },
+  {
+    "name": "Benchmark Protocol",
+    "symbol": "MARK",
+    "url": "benchmarkprotocol.finance",
+    "address": "0x67c597624B17b16fb77959217360B7cD18284253",
+    "createdAt": "Nov 24, 2020"
+  },
+  {
+    "name": "Ethanol",
+    "symbol": "ENOL",
+    "url": "ethanoltoken.com",
+    "address": "0x63D0eEa1D7C0d1e89d7e665708d7e8997C0a9eD6",
+    "createdAt": "Nov 24, 2020"
+  },
+  {
+    "name": "Twerk Finance",
+    "symbol": "TWERK",
+    "url": "twerk.finance",
+    "address": "0xf0b47ee3d3bdbef94999b2b8f4b81a52fbe2e3ed",
+    "createdAt": "Nov 24, 2020"
+  },
+  {
+    "name": "BFCORE",
+    "symbol": "BFCORE",
+    "url": "bfcore.byfi.finance",
+    "address": "0x547268de6b0D650999bD4b45024Be38Bb16341e3",
+    "createdAt": "Nov 24, 2020"
+  },
+  {
+    "name": "Ethereum Yield",
+    "symbol": "ETHY",
+    "url": "ethereumyield.farm",
+    "address": "0xd1afbccc9a2c2187ea544363b986ea0ab6ef08b5",
+    "createdAt": "Nov 23, 2020"
+  },
+  {
+    "name": "Farmland Protocol",
+    "symbol": "FAR",
+    "url": "farmland.finance",
+    "address": "0xaae3cf9968d26925bdb73ce3864e0084a20f4687",
+    "createdAt": "Nov 22, 2020"
+  },
+  {
+    "name": "Rotex Finance",
+    "symbol": "RTX",
+    "url": "rotex.website",
+    "address": "0x079de196d5e8babca45f7d621fe0127f4dc753d9",
+    "createdAt": "Nov 21, 2020"
+  },
+  {
+    "name": "Hype Finance",
+    "symbol": "HYPE",
+    "url": "hype-finance.com",
+    "address": "0x610c67be018a5c5bdc70acd8dc19688a11421073",
+    "createdAt": "Nov 21, 2020"
+  },
+  {
+    "name": "PoolStake",
+    "symbol": "PSK",
+    "url": "psk.peetdecentralized.finance",
+    "address": "0x3f84c4184b35c488f7fe4a12469610c9b1cb03c9",
+    "createdAt": "Nov 21, 2020"
+  },
+  {
+    "name": "DNFT.io",
+    "symbol": "PLT1",
+    "url": "dnft.io",
+    "address": "0xe3941447fa8c9a8a0f80726b8908f5b9784a64e2",
+    "createdAt": "Nov 21, 2020"
+  },
+  {
+    "name": "Tree.Finance",
+    "symbol": "TREE",
+    "url": "tree.finance",
+    "address": "0xCE222993A7E4818E0D12BC56376c5a60f92A5783",
+    "createdAt": "Nov 20, 2020"
+  },
+  {
+    "name": "Unifi Protocol DAO",
+    "symbol": "UNFI",
+    "url": "unifiprotocol.com",
+    "address": "0x441761326490cACF7aF299725B6292597EE822c2",
+    "createdAt": "Nov 19, 2020"
+  },
+  {
+    "name": "Decentralized Nations",
+    "symbol": "DENA",
+    "url": "smatoos.io/decentralized-nations",
+    "address": "0x15F0EEDF9Ce24fc4b6826E590A8292CE5524a1DA",
+    "createdAt": "Nov 18, 2020"
+  },
+  {
+    "name": "Rootkit Finance",
+    "symbol": "ROOT",
+    "url": "rootkit.finance",
+    "address": "0xcb5f72d37685c3d5ad0bb5f982443bc8fcdf570e",
+    "createdAt": "Nov 18, 2020"
+  }
+]
