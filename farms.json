@@ -1,5 +1,19 @@
 [
   {
+    "name": "Rocket Pool",
+    "symbol": "rETH",
+    "url": "https://docs.rocketpool.net/guides/staking/overview.html#the-reth-token",
+    "address": "0xae78736cd615f374d3085123a210448e74fc6393",
+    "createdAt": "Oct 20, 2021"
+  },
+  {
+    "name": "1inch",
+    "symbol": "1INCH",
+    "url": "1inch.exchange/#/dao/farming",
+    "address": "0x111111111117dc0aa78b770fa6a738034120c302",
+    "createdAt": "Dec 28, 2020"
+  },
+  {
     "name": "True Dollar Finance",
     "symbol": "TSD",
     "url": "truedollar.finance",
@@ -60,13 +74,6 @@
     "symbol": "NDX",
     "url": "indexed.finance",
     "address": "0x86772b1409b61c639eaac9ba0acfbb6e238e5f83",
-    "createdAt": "Dec 28, 2020"
-  },
-  {
-    "name": "1inch",
-    "symbol": "1INCH",
-    "url": "1inch.exchange/#/dao/farming",
-    "address": "0x111111111117dc0aa78b770fa6a738034120c302",
     "createdAt": "Dec 28, 2020"
   },
   {
