@@ -1,6 +1,5 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-.scrape.js
-.scrape.py
+/scrape
 
 # dependencies
 /node_modules
