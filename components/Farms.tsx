@@ -33,7 +33,7 @@ export const Farms = () => {
                 {farm.name == "Rocket Pool" ? <Image src={rpLogo} alt="" className="object-fill scale-[2] md:scale-[3] opacity-50" /> : ""}
                 {farm.name == "Alpha Homora V2" ? <Image src={ahLogo} alt="" className="object-fill scale-[2] md:scale-[3] opacity-25" /> : ""}
                 {farm.name == "NFTx" ? <Image src={nftx} alt="" className="object-fill scale-[3.2] md:scale-[3] opacity-25" /> : ""}
-                <div className={`${farm.name === "Rocket Pool" ? 'absolute text-orange-900' : "absolute"} ${farm.name === "NFTx" ? "text-red-600 hover:text-red-900" : ""}`}>
+                <div className={`${farm.name === "Rocket Pool" ? 'absolute text-orange-900' : "absolute"} ${farm.name === "Alpha Homora V2" ? 'absolute text-blue-900 max-w-[60%] sm:max-w-[70%]' : "absolute"} ${farm.name === "NFTx" ? "text-red-600 hover:text-red-900" : ""}`}>
                   <h3 className="text-2xl font-bold">{farm.name}</h3>
                   <h2 className={`${farm.name == "Alpha Homora V2" ? "bg-blue-400":""} ${farm.name == "NFTx" ? "bg-red-400":""} ${farm.name == "Rocket Pool" ? "bg-orange-600":""} bg-lime-600 text-white text-xs p-1 rounded-lg w-fit`}>{farm.symbol}</h2>
                 </div>
