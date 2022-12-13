@@ -28,12 +28,12 @@ export const Farms = () => {
             <div key={i} className="flex relative p-2">
               <Link
               href={`${farm.url}`}
-              className={`${farm.name == "Rocket Pool" ? 'hover:bg-orange-500/40':''} ${farm.name == "Alpha Homora V2" ? 'hover:bg-blue-400/40 hover:text-sky-900':''} ${farm.name == "NFTx" ? 'hover:bg-red-400/40 hover:text-red-900':''}  flex h-[200px] justify-center flex-col w-56 transition-all ease-in-out duration-100 visited:text-sky-900 bg-lime-50-500 hover:bg-lime-300 rounded-xl border p-6 text-left hover:text-lime-900 focus:text-lime-50 focus:bg-lime-500 relative overflow-clip`}
+              className={`${farm.name == "Rocket Pool" ? 'hover:bg-orange-500/40':''} ${farm.name == "Alpha Homora V2" ? 'hover:bg-blue-400/40 hover:text-sky-900':''} ${farm.name == "NFTx" ? 'hover:bg-red-400/40':''} flex h-[200px] justify-center flex-col w-56 transition-all ease-in-out duration-100 visited:text-sky-900 bg-lime-50-500 hover:bg-lime-300 rounded-xl border p-6 text-left hover:text-lime-900 focus:text-lime-50 focus:bg-lime-500 relative overflow-clip`}
               >
                 {farm.name == "Rocket Pool" ? <Image src={rpLogo} alt="" className="object-fill scale-[2] md:scale-[3] opacity-50" /> : ""}
                 {farm.name == "Alpha Homora V2" ? <Image src={ahLogo} alt="" className="object-fill scale-[2] md:scale-[3] opacity-25" /> : ""}
-                {farm.name == "NFTx" ? <Image src={nftx} alt="" className="object-fill scale-[2] md:scale-[3] opacity-25" /> : ""}
-                <div className={farm.name === "Rocket Pool" ? 'absolute text-orange-900' : "absolute"}>
+                {farm.name == "NFTx" ? <Image src={nftx} alt="" className="object-fill scale-[3.2] md:scale-[3] opacity-25" /> : ""}
+                <div className={`${farm.name === "Rocket Pool" ? 'absolute text-orange-900' : "absolute"} ${farm.name === "NFTx" ? "text-red-600 hover:text-red-900" : ""}`}>
                   <h3 className="text-2xl font-bold">{farm.name}</h3>
                   <h2 className={`${farm.name == "Alpha Homora V2" ? "bg-blue-400":""} ${farm.name == "NFTx" ? "bg-red-400":""} ${farm.name == "Rocket Pool" ? "bg-orange-600":""} bg-lime-600 text-white text-xs p-1 rounded-lg w-fit`}>{farm.symbol}</h2>
                 </div>
