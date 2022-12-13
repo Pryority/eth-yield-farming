@@ -28,4 +28,4 @@ yarn install
 yarn dev
 ```
 
-[Deploy with Fleek⚡️])(https://fleek.co/hosting/)
+[Deploy with Fleek⚡️](https://fleek.co/hosting/)
