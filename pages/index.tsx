@@ -37,18 +37,18 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.png" />
       </Head>
 
-      <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
-        <h1 className="text-6xl font-bold cursor-default">
+      <main className="flex w-full flex-col items-center justify-center max-w-sm sm:max-w-xl md:max-w-full sm:px-10 lg:px-20 text-center">
+        <h1 className="text-2xl font-bold cursor-default">
           Your {' '}
-          <span className="text-lime-600">
+          <span className="text-lime-600 text-6xl">
             Yield-Farming
           </span>
           {' '}
           Hub
         </h1>
 
-        <section className='flex flex-col items-center space-y-3'>
-          <div className="mt-4 text-2xl flex items-center space-x-2">
+        <section className='flex flex-col items-center space-y-3 w-full'>
+          <div className="mt-4 text-base sm:text-lg md:text-2xl flex items-center space-x-2">
             <p className='cursor-default'>New to Ethereum?</p>
             <Link href={"https://ethereum.org/en/defi/"} className="rounded-lg flex bg-lime-100 border border-lime-400 text-lime-900 hover:text-lime-900/60 focus:bg-lime-600 py-1 px-4 font-semibold text-lg transition-all ease-in-out duration-200 hover:bg-lime-300">
               Start Here
@@ -107,7 +107,7 @@ const Home: NextPage = () => {
         </section>
         
 
-        <div className="mt-6 flex max-w-4xl h-fit flex-wrap items-center justify-around sm:w-full">
+        <div className="mt-6 flex w-full h-fit items-center justify-center">
           <Farms />
         </div>
       </main>
