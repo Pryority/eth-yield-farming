@@ -107,7 +107,7 @@ const Home: NextPage = () => {
         </section>
         
 
-        <div className="mt-6 flex max-w-4xl h-screen flex-wrap items-center justify-around sm:w-full">
+        <div className="mt-6 flex max-w-4xl h-fit flex-wrap items-center justify-around sm:w-full">
           <Farms />
         </div>
       </main>
