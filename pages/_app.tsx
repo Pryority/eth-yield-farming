@@ -1,14 +1,15 @@
-import '../styles/globals.css'
-import type { AppProps } from 'next/app'
-import {Footer} from '../components/Footer'
+import React from "react";
+import "../styles/globals.css";
+import type { AppProps } from "next/app";
+import { Footer } from "../components/Footer";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Component {...pageProps} />
-      <Footer/>
+      <Footer />
     </>
-  )
+  );
 }
 
-export default MyApp
+export default MyApp;

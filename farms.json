@@ -28,9 +28,16 @@
     "createdAt": ""
   },
   {
+    "name": "1inch",
+    "symbol": "1INCH",
+    "url": "https://app.1inch.io/#/1/earn/farming",
+    "address": "0x111111111117dc0aa78b770fa6a738034120c302",
+    "createdAt": "Dec 28, 2020"
+  },
+  {
     "name": "Velodrome",
     "symbol": "VELO",
-    "url": "https://app.velodrome.finance/swap",
+    "url": "https://app.velodrome.finance/liquidity",
     "address": "0x3c8B650257cFb5f272f799F5e2b4e65093a11a05",
     "createdAt": ""
   },
@@ -40,13 +47,6 @@
     "url": "http://euler.finance/",
     "address": "0xd9fcd98c322942075a5c3860693e9f4f03aae07b",
     "createdAt": ""
-  },
-  {
-    "name": "1inch",
-    "symbol": "1INCH",
-    "url": "https://1inch.exchange/#/dao/farming",
-    "address": "0x111111111117dc0aa78b770fa6a738034120c302",
-    "createdAt": "Dec 28, 2020"
   },
   {
     "name": "True Dollar Finance",
