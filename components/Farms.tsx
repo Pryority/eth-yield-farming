@@ -55,7 +55,7 @@ export const Farms = () => {
                 farm.name == "NFTx"
                   ? "hover:bg-red-400/40 focus:bg-red-400 visited:text-red-600 text-red-500 hover:text-red-500"
                   : ""
-              } flex h-[200px] justify-center flex-col w-56 transition-all ease-in-out duration-100 visited:text-sky-900 bg-lime-50-500 hover:bg-lime-300 rounded-xl border p-6 text-left hover:text-lime-900 focus:text-lime-50 focus:bg-lime-500 relative overflow-clip`}
+              } flex h-[200px] justify-center flex-col w-56 transition-all ease-in-out duration-100 visited:text-sky-900 bg-lime-50-500  rounded-xl border p-6 text-left relative overflow-clip ${i > 4 ? "hover:bg-lime-300 hover:text-lime-900 focus:text-lime-50 focus:bg-lime-500" : ""}`}
             >
               {farm.name == "Rocket Pool" ? (
                 <Image
