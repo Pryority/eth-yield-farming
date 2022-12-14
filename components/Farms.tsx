@@ -5,7 +5,7 @@ import farms from "../farms.json";
 import rpLogo from "../public/rp-logo.png";
 import ahLogo from "../public/ah-logo.png";
 import hopLogo from "../public/hop-logo.png";
-import nftx from "../public/nftx.png";
+import nftx from "../public/nftx-logo.png";
 import inchLogo from "../public/1in-logo.png";
 import curveLogo from "../public/curve-logo.png";
 
@@ -69,7 +69,7 @@ export const Farms = () => {
                 <Image
                   src={hopLogo}
                   alt=""
-                  className="object-fill scale-[2] md:scale-[2] opacity-50"
+                  className="object-fill scale-[2] opacity-50"
                 />
               ) : (
                 ""
@@ -78,7 +78,7 @@ export const Farms = () => {
                 <Image
                   src={ahLogo}
                   alt=""
-                  className="object-fill scale-[2] md:scale-[3] opacity-25"
+                  className="object-fill scale-[2] opacity-50"
                 />
               ) : (
                 ""
@@ -96,7 +96,7 @@ export const Farms = () => {
                 <Image
                   src={nftx}
                   alt=""
-                  className="object-fill scale-[3] sm:scale-3 md:scale-[4] opacity-25"
+                  className="object-fill scale-[2] sm:scale-2 opacity-50"
                 />
               ) : (
                 ""
