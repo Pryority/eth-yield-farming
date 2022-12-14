@@ -7,6 +7,13 @@
     "createdAt": "Oct 20, 2021"
   },
   {
+    "name": "Curve",
+    "symbol": "CRV",
+    "url": "https://curve.fi/#/ethereum/pools",
+    "address": "",
+    "createdAt": ""
+  },
+  {
     "name": "Hop Exchange",
     "symbol": "HOP",
     "url": "https://app.hop.exchange/#/pools?token=ETH",

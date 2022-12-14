@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { Farms } from "../components/Farms";
 import {
+  ArrowTopRightOnSquareIcon,
   InformationCircleIcon,
   XCircleIcon,
 } from "@heroicons/react/24/outline";
@@ -41,7 +42,7 @@ const Home: NextPage = () => {
 
           {showHelp ? (
             <div className="flex flex-col items-start space-y-8 text-base sm:text-md md:text-lg w-full max-w-5xl rounded-md bg-stone-300/20 p-4">
-              <div className="flex flex-col space-y-1 items-start">
+              <div className="flex flex-col space-y-4 items-start">
                 <div className="flex w-full items-center justify-between">
                   <h2 className="font-medium text-2xl">
                     What is yield farming?
@@ -51,19 +52,26 @@ const Home: NextPage = () => {
                     onClick={toggleShowHelp}
                   />
                 </div>
-                <p className="text-start">
+                <p className="text-start text-slate-700">
                   Yield farming, also referred to as liquidity mining, is a way
                   to generate rewards with cryptocurrency holdings. In simple
                   terms, it means locking up cryptocurrencies and getting
                   rewards.
                 </p>
 
-                <p className="text-start">
+                <p className="text-start text-slate-700">
                   {` In some sense, yield farming can be paralleled with staking.
                   However, there's a lot of complexity going on in the
                   background. In many cases, it works with users called
                   liquidity providers (LP) that add funds to liquidity pools.`}
                 </p>
+
+                <div className="flex w-full items-center justify-center">
+                  <Link href={""} className="rounded-lg flex space-x-2 items-center bg-lime-100 border border-lime-400 text-lime-900 hover:text-lime-900/60 focus:bg-lime-600 py-1 px-4 font-light text-sm transition-all ease-in-out duration-200 hover:bg-lime-300">
+                    <p>Learn More</p>
+                    <ArrowTopRightOnSquareIcon className="h-3 w-3"/>
+                  </Link>
+                </div>
               </div>
 
               <div className="flex flex-col space-y-1 items-start">
