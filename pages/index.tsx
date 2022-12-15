@@ -69,7 +69,7 @@ const Home: NextPage = () => {
 
                 <div className="flex w-full items-center justify-center">
                   <Link
-                    href={"https://www.youtube.com/watch?v=atgljqsH2Js&ab_channel=ETHGlobal"}
+                    href={"https://www.coindesk.com/learn/what-is-yield-farming-the-rocket-fuel-of-defi-explained/"}
                     className="rounded-lg flex space-x-2 items-center bg-lime-100 border border-lime-400 text-lime-900 hover:text-lime-900/60 focus:bg-lime-600 py-1 px-4 font-light text-sm transition-all ease-in-out duration-200 hover:bg-lime-300"
                   >
                     <p>Learn More</p>
