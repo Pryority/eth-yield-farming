@@ -14,6 +14,13 @@
     "createdAt": ""
   },
   {
+    "name": "Balancer",
+    "symbol": "BAL",
+    "url": "https://app.balancer.fi/",
+    "address": "",
+    "createdAt": ""
+  },
+  {
     "name": "Hop Exchange",
     "symbol": "HOP",
     "url": "https://app.hop.exchange/#/pools?token=ETH",

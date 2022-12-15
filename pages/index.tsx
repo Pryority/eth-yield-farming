@@ -34,6 +34,7 @@ const Home: NextPage = () => {
             <p className="cursor-default">New to Ethereum?</p>
             <Link
               href={"https://ethereum.org/en/defi/"}
+              target="_blank"
               className="rounded-lg flex bg-lime-100 border border-lime-400 text-lime-900 hover:text-lime-900/60 focus:bg-lime-600 py-1 px-4 font-semibold text-lg transition-all ease-in-out duration-200 hover:bg-lime-300"
             >
               Start Here
@@ -67,14 +68,17 @@ const Home: NextPage = () => {
                 </p>
 
                 <div className="flex w-full items-center justify-center">
-                  <Link href={""} className="rounded-lg flex space-x-2 items-center bg-lime-100 border border-lime-400 text-lime-900 hover:text-lime-900/60 focus:bg-lime-600 py-1 px-4 font-light text-sm transition-all ease-in-out duration-200 hover:bg-lime-300">
+                  <Link
+                    href={"https://www.youtube.com/watch?v=atgljqsH2Js&ab_channel=ETHGlobal"}
+                    className="rounded-lg flex space-x-2 items-center bg-lime-100 border border-lime-400 text-lime-900 hover:text-lime-900/60 focus:bg-lime-600 py-1 px-4 font-light text-sm transition-all ease-in-out duration-200 hover:bg-lime-300"
+                  >
                     <p>Learn More</p>
-                    <ArrowTopRightOnSquareIcon className="h-3 w-3"/>
+                    <ArrowTopRightOnSquareIcon className="h-3 w-3" />
                   </Link>
                 </div>
               </div>
 
-              <div className="flex flex-col space-y-1 items-start">
+              <div className="flex flex-col space-y-4 items-start">
                 <h3 className="font-medium text-2xl">
                   What is a liquidity pool?
                 </h3>
@@ -114,6 +118,15 @@ const Home: NextPage = () => {
                   like on centralized exchanges, liquidity tends to attract more
                   liquidity.
                 </p>
+                <div className="flex w-full items-center justify-center">
+                  <Link
+                    href={"https://www.youtube.com/watch?v=atgljqsH2Js&ab_channel=ETHGlobal"}
+                    className="rounded-lg flex space-x-2 items-center bg-lime-100 border border-lime-400 text-lime-900 hover:text-lime-900/60 focus:bg-lime-600 py-1 px-4 font-light text-sm transition-all ease-in-out duration-200 hover:bg-lime-300"
+                  >
+                    <p>Learn More</p>
+                    <ArrowTopRightOnSquareIcon className="h-3 w-3" />
+                  </Link>
+                </div>
               </div>
             </div>
           ) : (

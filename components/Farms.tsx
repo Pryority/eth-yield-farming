@@ -8,6 +8,7 @@ import hopLogo from "../public/hop-logo.png";
 import nftx from "../public/nftx-logo.png";
 import inchLogo from "../public/1in-logo.png";
 import curveLogo from "../public/curve-logo.png";
+import balancerLogo from "../public/balancer-logo.png";
 
 type Farm = {
   name: string;
@@ -37,13 +38,46 @@ export const Farms = () => {
               href={`${farm.url}`}
               target="_blank"
               className={`
-              ${i > 5 ? "hover:bg-lime-300 hover:text-lime-900 focus:text-lime-50 focus:bg-lime-500" : ""}
-              ${farm.name == "Rocket Pool" ? "hover:bg-orange-500/40 focus:bg-orange-500" : ""} 
-              ${farm.name == "Curve" ? "hover:bg-stone-500/40 focus:bg-slate-50" : ""} 
-              ${farm.name == "Hop Exchange" ? "hover:bg-pink-500/40 focus:bg-pink-500" : ""}
-              ${farm.name == "Alpha Homora V2" ? "hover:bg-blue-400/40 hover:text-sky-900 focus:bg-blue-400" : ""}
-              ${farm.name == "1inch" ? "hover:bg-slate-400/40 focus:bg-slate-400" : ""}
-              ${farm.name == "NFTx" ? "hover:bg-red-400/40 focus:bg-red-400 visited:text-red-600 text-red-500 hover:text-red-500" : ""} 
+              ${
+          i > 6
+            ? "hover:bg-lime-300 hover:text-lime-900 focus:text-lime-50 focus:bg-lime-500"
+            : ""
+          }
+              ${
+          farm.name == "Rocket Pool"
+            ? "hover:bg-orange-500/40 focus:bg-orange-500"
+            : ""
+          } 
+              ${
+          farm.name == "Curve"
+            ? "hover:bg-stone-500/40 focus:bg-slate-50"
+            : ""
+          } 
+              ${
+          farm.name == "Balancer"
+            ? "hover:bg-zinc-800/40 focus:bg-zinc-300"
+            : ""
+          } 
+              ${
+          farm.name == "Hop Exchange"
+            ? "hover:bg-pink-500/40 focus:bg-pink-500"
+            : ""
+          }
+              ${
+          farm.name == "Alpha Homora V2"
+            ? "hover:bg-blue-400/40 hover:text-sky-900 focus:bg-blue-400"
+            : ""
+          }
+              ${
+          farm.name == "1inch"
+            ? "hover:bg-slate-400/40 focus:bg-slate-400"
+            : ""
+          }
+              ${
+          farm.name == "NFTx"
+            ? "hover:bg-red-400/40 focus:bg-red-400 visited:text-red-600 text-red-500 hover:text-red-500"
+            : ""
+          } 
               flex h-[200px] justify-center flex-col w-56 transition-all ease-in-out duration-100 visited:text-sky-900 bg-lime-50-500  rounded-xl border p-6 text-left relative overflow-clip 
               `}
             >
@@ -59,6 +93,15 @@ export const Farms = () => {
               {farm.name == "Curve" ? (
                 <Image
                   src={curveLogo}
+                  alt=""
+                  className="object-fill scale-[2] opacity-50"
+                />
+              ) : (
+                ""
+              )}
+              {farm.name == "Balancer" ? (
+                <Image
+                  src={balancerLogo}
                   alt=""
                   className="object-fill scale-[2] opacity-50"
                 />
@@ -103,24 +146,50 @@ export const Farms = () => {
               )}
               <div
                 className={`
-                ${farm.name === "Rocket Pool" ? "absolute text-orange-900" : "absolute"} 
-                ${farm.name === "Curve" ? "absolute text-stone-700" : "absolute"} 
-                ${farm.name === "1inch" ? "absolute text-slate-800" : "absolute"} 
-                ${farm.name === "Hop Exchange" ? "absolute text-pink-900" : "absolute"} 
-                ${farm.name === "NFTx" ? "absolute text-red-900 max-w-[60%] sm:max-w-[70%]" : "absolute"} 
-                ${farm.name === "Alpha Homora V2" ? "absolute text-blue-900 max-w-[60%] sm:max-w-[70%]" : "absolute"}
+                ${
+          farm.name === "Rocket Pool" ? "absolute text-orange-900" : "absolute"
+          } 
+                ${
+          farm.name === "Curve" ? "absolute text-stone-700" : "absolute"
+          } 
+                ${
+          farm.name === "Balancer" ? "absolute text-zinc-800" : "absolute"
+          } 
+                ${
+          farm.name === "1inch" ? "absolute text-slate-800" : "absolute"
+          } 
+                ${
+          farm.name === "Hop Exchange" ? "absolute text-pink-900" : "absolute"
+          } 
+                ${
+          farm.name === "NFTx" ? "absolute text-red-900 max-w-[60%] sm:max-w-[70%]" : "absolute"
+          } 
+                ${
+          farm.name === "Alpha Homora V2" ? "absolute text-blue-900 max-w-[60%] sm:max-w-[70%]" : "absolute"
+          }
                 `}
               >
                 <h3 className="text-2xl font-bold">{farm.name}</h3>
                 <h2
                   className={`
-                  ${farm.name === "Rocket Pool" ? "bg-orange-600 text-white" : ""} 
+                  ${
+          farm.name === "Rocket Pool"
+            ? "bg-orange-600 text-white"
+            : ""
+          } 
                   ${farm.name === "Curve" ? "bg-stone-200 text-slate-900" : ""} 
-                  ${farm.name === "Hop Exchange" ? "bg-pink-400 text-white" : ""} 
-                  ${farm.name === "Alpha Homora V2" ? "bg-blue-400 text-white" : ""} 
+                  ${farm.name === "Balancer" ? "bg-zinc-700 text-zinc-50" : ""} 
+                  ${
+          farm.name === "Hop Exchange" ? "bg-pink-400 text-white" : ""
+          } 
+                  ${
+          farm.name === "Alpha Homora V2"
+            ? "bg-blue-400 text-white"
+            : ""
+          } 
                   ${farm.name === "NFTx" ? "bg-red-600 text-white" : ""} 
                   ${farm.name === "1inch" ? "bg-slate-500 text-white" : ""} 
-                  ${i > 5 ? "bg-slate-200" : ""} 
+                  ${i > 6 ? "bg-slate-200" : ""} 
                   text-xs p-1 rounded-lg w-fit`}
                 >
                   {farm.symbol}
